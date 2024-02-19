@@ -1,4 +1,5 @@
 def uppercase_string(input_string):
+
     """Эта ффункция принимает строку и возвращает
     строку с заглавными буквами"""
     return input_string.upper()
@@ -11,3 +12,4 @@ def capitalize_words(input_string):
       первой буквы каждого слова в строке в заглавную."""
 
     return ' '.join(word.capitalize() for word in input_string.split())
+
